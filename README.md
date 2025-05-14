@@ -18,4 +18,5 @@ JustAChat Android Application
 ![Img Message](./img/img.jpg)
 ![Safe Image Message](./img/safeimg.jpg)
 ![Background Message](./img/backgroundmsg.jpg)
-
+# Aid - buy me a MiXue lemonade
+![WechatPay](./img/aid.jpg)
