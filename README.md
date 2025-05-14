@@ -11,11 +11,11 @@ JustAChat Android Application
 - 支持后台接收消息
 - 内容传输AES加密
 # 界面如下：
-![Login](./img/login.png =400x)
-![Register](./img/register.png  =400x)
-![Add Friend](./img/addfriend.jpg =850x)
-![Text Message](./img/txt.jpg =400x)
-![Img Message](./img/img.jpg =850x)
-![Safe Image Message](./img/safeimg.jpg =850x)
-![Background Message](./img/backgroundmsg.jpg =400x)
+![Login](./img/login.png)
+![Register](./img/register.png)
+![Add Friend](./img/addfriend.jpg)
+![Text Message](./img/txt.jpg)
+![Img Message](./img/img.jpg)
+![Safe Image Message](./img/safeimg.jpg)
+![Background Message](./img/backgroundmsg.jpg)
 
