@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="6dp">
+
+        <EditText
+            android:id="@+id/send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/corners_edit_white"
+            android:maxLines="3"
+            android:singleLine="true"
+            android:imeOptions="actionSend"
+            android:minHeight="36dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="16sp" />
+
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/pic" />
+        <ImageView
+            android:src="@mipmap/fire"
+            android:id="@+id/pic_fire"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:background="@mipmap/pic" />
+
+    </LinearLayout>
+
+</LinearLayout>

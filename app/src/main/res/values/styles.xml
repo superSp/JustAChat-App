@@ -1,0 +1,39 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black_6</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="main_bg_1">#ffffff</item>
+        <item name="main_bg_2">#EFEFEF</item>
+        <item name="main_bg_3">#CACACA</item>
+
+        <item name="theme_color_1">#333333</item>
+        <item name="theme_color_2">#666666</item>
+        <item name="theme_color_3">#999999</item>
+
+        <item name="ripple_gray">#D1D1D1</item>
+
+        <item name="float_bg">#FFFFFF</item>
+
+        <item name="division_line">#EDEDED</item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:textColor">?attr/theme_color_1</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <!-- 警告框样式 -->
+    <style name="alert_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

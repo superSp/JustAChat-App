@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <ProgressBar
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@id/progressBar2"
+        android:layout_alignBottom="@id/progressBar2"
+        android:layout_centerInParent="true"
+        android:text="0%"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/id_update_msg"
+        android:visibility="gone"
+        android:paddingBottom="10dp"
+        android:textColor="#eeff0000"
+        android:layout_above="@id/progressBar2"
+        android:layout_centerInParent="true"
+        android:text="正在上传中,请稍后...  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

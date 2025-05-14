@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:background="?attr/main_bg_1"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:visibility="gone"
+        android:layout_width="150dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="98dp"
+        android:background="@color/red"
+        app:layout_constraintLeft_toLeftOf="@+id/tvLogin"
+        app:layout_constraintRight_toRightOf="@+id/tvLogin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@mipmap/chat"
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="70dp"
+        android:text="Just A Chat"
+        android:textColor="?attr/theme_color_1"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:background="@null"
+        android:hint="Account"
+        android:textColor="?attr/theme_color_1"
+        android:textColorHint="?attr/theme_color_3"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvLogin" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/ivClear"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ripple_circle_bg"
+        android:padding="10dp"
+        android:src="@drawable/svg_clear"
+        app:layout_constraintBottom_toBottomOf="@+id/etUsername"
+        app:layout_constraintRight_toRightOf="@+id/etUsername"
+        app:layout_constraintTop_toTopOf="@+id/etUsername" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="?attr/division_line"
+        app:layout_constraintTop_toBottomOf="@+id/etUsername" />
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="16dp"
+        android:background="@null"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="?attr/theme_color_1"
+        android:textColorHint="?attr/theme_color_3"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etUsername" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/ivPasswordVisibility"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ripple_circle_bg"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        android:src="@drawable/selector_pass"
+        app:layout_constraintBottom_toBottomOf="@+id/etPassword"
+        app:layout_constraintRight_toRightOf="@+id/etUsername"
+        app:layout_constraintTop_toTopOf="@+id/etPassword" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="?attr/division_line"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+    <Space
+        android:id="@+id/sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintRight_toLeftOf="@id/sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:background="?attr/main_bg_2"
+        android:text="Login"
+        android:textColor="?attr/theme_color_2"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+    <Button
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintLeft_toRightOf="@id/sp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/btnRegist"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="?attr/main_bg_2"
+        android:text="Regist"
+        android:textColor="?attr/theme_color_2"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
