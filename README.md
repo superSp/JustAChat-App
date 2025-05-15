@@ -1,6 +1,6 @@
 # JustAChat-App
 JustAChat Android Application
-一个聊天App，基于WebSocket，后端代码点这里。主要功能：
+一个聊天App，基于WebSocket，[后端代码点这里](https://github.com/superSp/JustAChat-Server)。主要功能：
 - 登录注册
 - 聊天
 - 加好友
